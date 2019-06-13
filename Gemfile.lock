@@ -25,8 +25,11 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
+    ruby-ole (1.2.12.2)
     sequel (5.20.0)
     sexpr (0.6.0)
+    spreadsheet (1.2.4)
+      ruby-ole (>= 1.0)
     sqlite3 (1.4.1)
 
 PLATFORMS
@@ -38,6 +41,7 @@ DEPENDENCIES
   rake (~> 10)
   rspec (~> 3.6)
   sequel
+  spreadsheet
   sqlite3
 
 BUNDLED WITH
